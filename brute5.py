@@ -1,8 +1,8 @@
 import requests
 
 target_url = 'http://192.168.50.101/dvwa/login.php'
-usernames_file = '/Users/federicocattani/Desktop/brute/usernames.txt'
-passwords_file = '/Users/federicocattani/Desktop/brute/passwords.txt'
+usernames_file = '/home/kali/Desktop/brute/usernames.txt'
+passwords_file = '/home/kali/Desktop/brute/passwords.txt'
 
 with open(usernames_file, 'r') as usernames:
     with open(passwords_file, 'r') as passwords:
